@@ -1,0 +1,14 @@
+[package]
+name = "timerec"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "A small KDE desktop application built with Rust and Kirigami"
+publish = false
+
+[dependencies]
+cxx-qt-lib = { version = "0.10", features = ["qt_full"] }
+cxx-qt-lib-extras = "0.10"
+
+[build-dependencies]
+cxx-qt-build = { version = "0.10", features = ["link_qt_object_files"] }

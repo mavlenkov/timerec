@@ -1,0 +1,24 @@
+/target/
+/build/
+/.qmlls.ini
+
+# Local agent configuration and session artifacts.
+/AGENTS.md
+/CLAUDE.md
+/USER-RULES.md
+/LLM-RULES.md
+/.agents/
+/.claude/
+/.codex
+/.cursor/
+/.kimi-code/
+/.koda/
+/.opencode/
+/.specify/
+/handoffs/
+/memory.md
+/.ai-rules.json
+/.mcp.json
+/.cursorignore
+/.mcp-status.md
+/opencode.json
